@@ -7,7 +7,6 @@
  * @tree: pointer to the root node to traverse
  * Return: return the newnode or NULL
  */
-
 size_t binary_tree_height(const binary_tree_t *tree)
 {
 	if (tree == NULL || (tree->left == NULL && tree->right == NULL))
